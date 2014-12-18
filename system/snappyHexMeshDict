@@ -37,8 +37,8 @@ geometry
    box 
     {
 	type searchableBox;
-	min (20 -11 0);
-	max (50 14 1 );
+	min (22 -14 0);
+	max (60 14 1 );
     }
 };
 
@@ -144,7 +144,7 @@ castellatedMeshControls
     box 
       {
 	mode inside;
-	levels ((1e12 2));
+	levels ((112 2));
       }
     }
 
