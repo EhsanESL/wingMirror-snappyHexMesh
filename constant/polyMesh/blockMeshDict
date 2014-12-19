@@ -59,19 +59,27 @@ boundary
         );
     }
 
-    frontAndBack
+    freeStream
     {
-        type symmetry;
+        type patch;
         faces
         (
             (3 7 6 2)
-            (5 4 0 1)
         );
+    }
+    
+    driverSide
+    {
+    	type wall;
+    	faces
+    	(
+    	    (5 4 0 1)
+    	);
     }
 
     upDown
     {
-        type patch;
+        type empty;
         faces
         (
             (4 5 6 7)
