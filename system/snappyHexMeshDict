@@ -37,8 +37,8 @@ geometry
    box 
     {
 	type searchableBox;
-	min (22 -14 0);
-	max (60 14 1 );
+	min (18 -14 0);
+	max (40  14 1);
     }
 };
 
